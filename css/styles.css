@@ -1,13 +1,16 @@
+/* ############### TAG SELECTORS ############### */
 body {
-  background-color: #ffffff;
+  background-color: #fffdf9;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0;
 }
-hr {
 
+hr {
   border-style: dotted none none;
   border-color: #beebe9;
   border-width: 5px;
   width: 5%;
-
+  margin-top: 40px;
 }
 
 h1 {
@@ -16,4 +19,54 @@ h1 {
 
 h3 {
   color: #8ac6d1;
+}
+
+a {
+  color: #584153;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #af8baf;
+}
+
+p {
+
+}
+
+/* ############### CLASS SELECTORS ############### */
+.id-photo {
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin-top: 0;
+}
+
+.contact-button {
+  background-color: #ffe3ed;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 3px;
+  margin: 30px 10px 10px 10px;
+  font-weight: normal;
+}
+
+.contact-button:hover {
+  background-color: #f6acc8;
+  color: #584153;
+}
+
+.top-container {
+  background-color: #beebe9;
+  text-align: center;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
 }
