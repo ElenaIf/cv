@@ -3,6 +3,7 @@ body {
   background-color: #fffdf9;
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 hr {
@@ -15,6 +16,7 @@ hr {
 
 h1 {
   color: #27496d;
+  margin-top: 0;
 }
 
 h3 {
@@ -32,10 +34,6 @@ a:hover {
   color: #af8baf;
 }
 
-p {
-
-}
-
 /* ############### CLASS SELECTORS ############### */
 .id-photo {
   border-radius: 100%;
@@ -49,7 +47,6 @@ p {
   text-decoration: none;
   font-size: 20px;
   border-radius: 3px;
-  margin: 30px 10px 10px 10px;
   font-weight: normal;
 }
 
@@ -60,13 +57,22 @@ p {
 
 .top-container {
   background-color: #beebe9;
-  text-align: center;
+  position: relative;
+  padding: 20px;
 }
 
-.middle-container {
+.middle-container {}
 
+.bottom-container {}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 100px;
 }
 
-.bottom-container {
-
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
