@@ -41,6 +41,14 @@ a:hover {
   color: #af8baf;
 }
 
+ul {
+  text-align: left;
+}
+
+table {
+  text-align: left;
+}
+
 /* ############### CLASS SELECTORS ############### */
 .id-photo {
   border-radius: 100%;
@@ -73,10 +81,25 @@ a:hover {
   padding: 20px;
 }
 
-.middle-container {}
+.experience-container {
+  position: relative;
+  padding: 20px;
+}
 
-.bottom-container {}
+.education-container {
+  position: relative;
+  padding: 20px;
+}
 
+.skills-container {
+  position: relative;
+  padding: 20px;
+}
+
+.other-container {
+  position: relative;
+  padding: 20px;
+}
 .bottom-cloud {
   display: inline-block;
   margin: 0;
