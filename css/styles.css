@@ -17,15 +17,22 @@ hr {
 h1 {
   color: #27496d;
   margin-top: 0;
+  margin-bottom: 40px;
+  font-family: 'Mali', cursive;
 }
 
 h3 {
   color: #8ac6d1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
   color: #584153;
-  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-weight: bold;
 }
@@ -48,6 +55,10 @@ a:hover {
   font-size: 20px;
   border-radius: 3px;
   font-weight: normal;
+}
+
+.subheading {
+  margin-bottom: 40px;
 }
 
 .contact-button:hover {
@@ -74,5 +85,5 @@ a:hover {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 5px;
 }
