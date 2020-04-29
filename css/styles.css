@@ -62,9 +62,15 @@ footer {
   background-color: #E4F9F5;
   position: relative;
   padding: 50px;
+  line-height: 2;
 }
 
 /* ############### CLASS SELECTORS ############### */
+
+.footer-link {
+  margin: 10px;
+}
+
 .id-photo {
   height: 200px;
   margin: 30px auto 0 auto;
@@ -79,6 +85,7 @@ footer {
   font-size: 20px;
   border-radius: 3px;
   font-weight: normal;
+  margin: 20px;
 }
 
 .contact-button:hover {
@@ -96,8 +103,6 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-
 
 .education-container {
   position: relative;
@@ -121,12 +126,13 @@ footer {
   width: 60%;
   margin: 50px auto;
   text-align: left;
-line-height: 2;
+  line-height: 2;
 }
 
 .other-container {
   position: relative;
-  padding: 20px;
+  width: 70%;
+  display: inline-block;
 }
 
 .bottom-cloud {
@@ -140,6 +146,7 @@ line-height: 2;
   right: 250px;
   bottom: 100px;
 }
+
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -147,13 +154,19 @@ line-height: 2;
 }
 
 .html-image {
-width: 25%;
-float: left;
-margin-right: 30px;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
 }
 
 .agile-image {
-  width: 25%;
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.education-image {
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
@@ -171,5 +184,9 @@ margin-right: 30px;
 
 .description {
   text-align: left;
+}
 
+.flags {
+  width: 10%;
+  margin: 30px;
 }
