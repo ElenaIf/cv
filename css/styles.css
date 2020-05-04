@@ -4,14 +4,15 @@ body {
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0;
   text-align: center;
+  color: #40514E;
 }
 
 hr {
   border-style: dotted none none;
   border-color: #beebe9;
-  border-width: 5px;
-  width: 5%;
-  margin-top: 40px;
+  border-width: 6px;
+  width: 4%;
+  margin: 100px auto;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h2 {
   font-size: 2rem;
   color: #27496d;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -60,12 +62,21 @@ table {
 
 footer {
   background-color: #E4F9F5;
-  position: relative;
-  padding: 50px;
+  padding: 30px 0;
+}
+
+p {
   line-height: 2;
 }
 
 /* ############### CLASS SELECTORS ############### */
+
+
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
 
 .footer-link {
   margin: 10px;
@@ -80,12 +91,13 @@ footer {
 
 .contact-button {
   background-color: #ffe3ed;
-  padding: 10px;
+  padding: 20px;
   text-decoration: none;
   font-size: 20px;
   border-radius: 3px;
   font-weight: normal;
-  margin: 20px;
+  margin: 20px auto;
+  display: inline-block;
 }
 
 .contact-button:hover {
@@ -104,6 +116,10 @@ footer {
   padding-bottom: 100px;
 }
 
+.middle-container {
+  margin: 100px 0;
+}
+
 .education-container {
   position: relative;
   width: 70%;
@@ -119,14 +135,12 @@ footer {
   width: 50%;
   margin: 50px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .work-row {
   width: 60%;
   margin: 50px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .other-container {
@@ -189,4 +203,13 @@ footer {
 .flags {
   width: 100px;
   margin: 30px;
+}
+
+.message {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  margin: 20px 0;
 }
